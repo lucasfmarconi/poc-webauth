@@ -19,4 +19,8 @@
     <ProjectReference Include="..\POC.WebAuth.Authentication\POC.WebAuth.Authentication.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

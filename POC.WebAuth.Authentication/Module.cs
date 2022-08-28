@@ -11,7 +11,7 @@ namespace POC.WebAuth.Authentication
     {
         public static void AddAuthenticationMembers(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("DefaultConnection") ??
+            var connectionString = configuration.GetConnectionString("AuthConnection") ??
                                    throw new InvalidOperationException(
                                        "Connection string 'DefaultConnection' not found.");
 
